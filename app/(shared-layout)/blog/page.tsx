@@ -7,9 +7,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { connection } from "next/server";
 
-// export const dynamic = "force-static";
-// export const revalidate = 30;
-
 export const metadata: Metadata = {
   title: `Blog - Scriptr`,
   description: "Read the latest articles and updates from Scriptr.",
